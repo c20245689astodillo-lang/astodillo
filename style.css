@@ -1,0 +1,30 @@
+body {
+    background-color: #cfb8ca;
+    line-height: 1.6;
+}
+h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 1rem;
+    padding: 12px;
+    background-color: #af3a96;
+}
+header {
+    border-bottom: 1px solid #ccc;
+    padding: 2px;
+    margin-bottom: 6px;
+    background-color: #ce81bd;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+nav li{
+    display: inline-block;
+    margin: 0 10px;
+}
+h2 {
+    color: rgb(99, 6, 99);
+    font-family: 'Gill Sans','Gill Sans MT', 'Calibre', 'Trebuchet MS', sans-serif;
+}
