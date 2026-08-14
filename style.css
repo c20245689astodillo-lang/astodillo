@@ -7,12 +7,13 @@ h1 {
     font-weight: 400;
     letter-spacing: 1rem;
     padding: 12px;
-    background-color: #af3a96;
+    background-color: #af3a96; 
+    text-align: center;
 }
 header {
     border-bottom: 1px solid #ccc;
     padding: 2px;
-    margin-bottom: 6px;
+    margin-bottom: 20px;
     background-color: #ce81bd;
 }
 nav ul{
@@ -24,7 +25,24 @@ nav li{
     display: inline-block;
     margin: 0 10px;
 }
+
+section {
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
 h2 {
-    color: rgb(99, 6, 99);
-    font-family: 'Gill Sans','Gill Sans MT', 'Calibre', 'Trebuchet MS', sans-serif;
+    color: rgb(212, 30, 212);
+    margin-top: 0;
+}
+p {
+    color: rgb(146, 64, 146);
+}
+.about-me {
+    color: rgb(187, 72, 168);
+    font-size: 20;
+}
+.my-services {
+    color: rgb(133, 62, 101);
+    font-size: 20;  
 }
