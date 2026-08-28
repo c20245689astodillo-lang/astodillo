@@ -43,32 +43,51 @@ form {
     gap: 10px;
 }
 
-nav ul {
-    flex-direction: column;
-    text-align: center;
-
+nav a {
+    transition: color 0.5s ease;
 }
 
-main {
-    padding: 15px;
-    margin: 10px;
-    gap: 20px;
+nav a:hover {
+    color: pink;
 }
 
-main section {
-    flex: 1 1 100%;
-    min-width: 0;
-    padding: 15px;
+button {
+    transition: background-color 0.3s ease;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    background-color: black;
+    padding: 10px 20px;
 }
 
-@media (max-width: 601px) {
-    h1 {
-        font-size: 100px;
-        color: blue;
-    }
+button:hover {
+    background-color: #333;
+    color: white;
 }
 
 @media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    main {
+        padding: 15px;
+        margin: 10px;
+        gap: 20px;
+    }
+
+    main section {
+        flex: 1 1 100%;
+        min-width: 0;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 48px;
+        color: blue;
+    }
+
     h2 {
         font-size: 48px;
         color: blue;
