@@ -64,6 +64,13 @@ main section {
 @media (max-width: 601px) {
     h1 {
         font-size: 100px;
-        color: red;
+        color: blue;
+    }
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 48px;
+        color: blue;
     }
 }
