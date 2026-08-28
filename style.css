@@ -1,48 +1,38 @@
 body {
-    background-color: #cfb8ca;
-    line-height: 1.6;
-}
-h1 {
-    font-size: 2rem;
-    font-weight: 400;
-    letter-spacing: 1rem;
-    padding: 12px;
-    background-color: #af3a96; 
     text-align: center;
 }
-header {
-    border-bottom: 1px solid #ccc;
-    padding: 2px;
-    margin-bottom: 20px;
-    background-color: #ce81bd;
-}
-nav ul{
+ul {
     list-style: none;
+}
+nav {
     display: flex;
-    gap: 1rem;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 50px;
+    margin-right: 50px;
 }
-nav li{
-    display: inline-block;
-    margin: 0 10px;
+nav ul {
+    display: flex;
+    gap: 20px;
 }
-
-section {
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px;
+    margin: 50px;
+}
+main section {
+    flex: 1;
+    min-width: 280x;
+    border: 2px solid black;
     padding: 20px;
-    margin-bottom: 25px;
 }
-
-h2 {
-    color: rgb(212, 30, 212);
-    margin-top: 0;
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
-p {
-    color: rgb(146, 64, 146);
-}
-.about-me {
-    color: rgb(187, 72, 168);
-    font-size: 20;
-}
-.my-services {
-    color: rgb(133, 62, 101);
-    font-size: 20;  
+#services {
+    padding: 0 50px;
 }
