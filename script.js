@@ -28,10 +28,29 @@ heading.style.backgroundColor = "yellow";
 heading.style.fontSize = "100px";
 console.log(heading);
 
+heading.addEventListener("click",function () {
+    heading.style.color = "red";
+    console.log ("Heading was clicked");
+});
+
 const contactHeading = document.querySelector("#contact h2");
 console.log(contactHeading);
 
 const servicesHeading = document.querySelector("#services h2");
 console.log(servicesHeading);
 
+const toggleButton = document.querySelector('#switch');
+const body = document.querySelector('body');
+let isOff = false;
 
+toggleButton.addEventListener("click", function() {
+    isOff = !isOff;
+
+    if (isOff) {
+        body.style.backgroundColor = "black";
+        body.style.color = "white";
+    } else {
+        body.style.backgroundColor = "white";
+        body.style.color = "black";
+    }
+});
